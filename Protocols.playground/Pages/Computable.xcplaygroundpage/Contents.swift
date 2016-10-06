@@ -6,7 +6,6 @@ protocol Computable {
     func compute() -> Int
 }
 
-
 class Sum {
   var numbers = [1,2,3,4,5,6,7,8,9]
 }
@@ -29,4 +28,10 @@ let countCharacters = CountCharacters()
 let random = Random()
 
 //let arrayOfComputables = [sum, product, countCharacters, random]
-// task: iterate over arrayOfComputables and compute each result
+
+/*:
+ **Tasks**: 
+ 1. Uncomment above line and make the code compile (by implementing the `Computable` protocol in all the classes)
+ 2. Iterate over `arrayOfComputables`, _comput_ each result and print it to the console using `print`
+ */
+
